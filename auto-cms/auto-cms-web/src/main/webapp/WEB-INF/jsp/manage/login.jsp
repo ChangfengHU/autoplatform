@@ -17,11 +17,11 @@
         <p>You have been logged out.</p>
     </c:if>
     <p>
-        <label for="username">Username</label>
+        <label for="username">Username1</label>
         <input type="text" id="username" name="username" />
     </p>
     <p>
-        <label for="password">Password</label>
+        <label for="password">Password1</label>
         <input type="password" id="password" name="password" />
     </p>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
